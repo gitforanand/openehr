@@ -1,7 +1,7 @@
 # To use with own risk. Remember to change passwords/credentials accordingly
 # I am not responsible for any loss or damages occured.
 
-FROM ubuntu:latest
+FROM ubuntu:20.04
 LABEL Maintainer="anand@adroitts.com"
 RUN mkdir /app
 WORKDIR /app
